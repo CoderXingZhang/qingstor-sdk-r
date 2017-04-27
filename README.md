@@ -2,11 +2,11 @@
 
 git clone git@github.com:zhangxing-love/QingStorRSDK_0.1.git
 
-install.packages('httr')
-install.packages('xml2')
-install.packages('aws.signature')
-install.packages('data.table')
-install.packages('path\\to\\QingStorRSDK_0.1', repos = NULL, type="source")
+install.packages('httr') \
+install.packages('xml2') \
+install.packages('aws.signature') \
+install.packages('data.table') \
+install.packages('path\\to\\QingStorRSDK_0.1', repos = NULL, type="source") \
 
 library('Qingstor')
 
