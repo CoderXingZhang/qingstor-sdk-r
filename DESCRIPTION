@@ -3,11 +3,8 @@ Type: Package
 Title: Qingstor Client Package
 Version: 1.0.0
 Date: 2017-1-21
-Authors@R: c(person("Thomas J.", "Leeper", role = c("aut", "cre")))
 Description: A simple client package for the Qingstor REST API.
 License: GPL (>= 2)
-URL: https://github.com/cloudyr/aws.s3
-BugReports: https://github.com/cloudyr/aws.s3/issues
 Imports:
     utils,
     tools,

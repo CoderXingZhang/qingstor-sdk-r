@@ -1,6 +1,10 @@
 # QingStor Client Package
 
 
+`first set :
+Sys.setenv("Qstor_ACCESS_KEY_ID" = "...", "Qstor_SECRET_ACCESS_KEY" = "...", "Qstor_DEFAULT_REGION" = "pek3a")
+
+
 ##get_object
  get an object in memory(now only support csv data)
 
