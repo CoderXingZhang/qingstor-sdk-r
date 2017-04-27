@@ -13,8 +13,9 @@ install.packages('path\\to\\QingStorRSDK_0.1', repos = NULL, type="source") \
 library('Qingstor')
 ```
 First set as follows in R environment: \
+``` R
 Sys.setenv("Qstor_ACCESS_KEY_ID" = "...", "Qstor_SECRET_ACCESS_KEY" = "...", "Qstor_DEFAULT_REGION" = "pek3a")
-
+```
 
 ## get_object
  get an object in memory(now only support csv data, read data as dataframe)
