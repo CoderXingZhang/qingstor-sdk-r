@@ -1,6 +1,8 @@
 # QingStor Client Package
 
 
+Prepare step
+
 ``` R
 install.packages('httr') \
 install.packages('xml2') \
