@@ -1,6 +1,5 @@
 # QingStor Client Package
 
-git clone git@github.com:zhangxing-love/QingStorRSDK_0.1.git
 
 ``` R
 install.packages('httr') \
