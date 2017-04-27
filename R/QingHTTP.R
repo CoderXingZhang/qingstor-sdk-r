@@ -59,7 +59,7 @@ QingHTTP <- function(verb = "GET",
      }
 
     
-      print(path)
+     # print(path)
 
     encodedPath <- if (path == "") "/" else {
         paste(sapply(
