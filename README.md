@@ -1,12 +1,21 @@
 # QingStor Client Package
 
+git clone git@github.com:zhangxing-love/QingStorRSDK_0.1.git
+
+install.packages('httr')
+install.packages('xml2')
+install.packages('aws.signature')
+install.packages('data.table')
+install.packages('path\\to\\QingStorRSDK_0.1', repos = NULL, type="source")
+
+library('Qingstor')
 
 First set as follows in R environment: \
 Sys.setenv("Qstor_ACCESS_KEY_ID" = "...", "Qstor_SECRET_ACCESS_KEY" = "...", "Qstor_DEFAULT_REGION" = "pek3a")
 
 
 ## get_object
- get an object in memory(now only support csv data)
+ get an object in memory(now only support csv data, read data as dataframe)
 
 get_object(object = 'object_name', bucket = 'bucket_name')
 the object_name could be a name under a folder like 'some_folder/object_name'
