@@ -17,14 +17,14 @@ First set as follows in R environment:
 Sys.setenv("Qstor_ACCESS_KEY_ID" = "...", "Qstor_SECRET_ACCESS_KEY" = "...", "Qstor_DEFAULT_REGION" = "pek3a")
 ```
 
-## get_object
+* ## get_object
  get an object in memory(now only support csv data, read data as dataframe)
 ``` R
 get_object(object = 'object_name', bucket = 'bucket_name') 
 ```
 the object_name could be a name under a folder like 'some_folder/object_name'
 
-## put_object
+* ## put_object
   put an object in Qingstor bucket
   
   ``` R 
@@ -34,7 +34,7 @@ the object_name could be a name under a folder like 'some_folder/object_name'
   
   folder is optional
 
-## delete_object
+* ## delete_object
   delete an object in Qingstor bucket 
 
   ``` R
@@ -43,7 +43,7 @@ the object_name could be a name under a folder like 'some_folder/object_name'
  the object_name could be a name under a folder like 'some_folder/object_name'
 
 
-## get_bucket
+* ## get_bucket
  list the object in Qingstor bucket
 
  Note : folder is must, even in the root of the bucket .
