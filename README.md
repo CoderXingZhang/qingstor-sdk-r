@@ -38,7 +38,7 @@ the object_name could be a name under a folder like 'some_folder/object_name'
   delete an object in Qingstor bucket 
 
   ``` R
- delete_object(object = 'object_name', bucket = 'bucket_name') 
+ 	delete_object(object = 'object_name', bucket = 'bucket_name') 
   ```
  the object_name could be a name under a folder like 'some_folder/object_name'
 
