@@ -32,7 +32,7 @@ Sys.setenv("Qstor_ACCESS_KEY_ID" = "...", "Qstor_SECRET_ACCESS_KEY" = "...", "Qs
  	put_object(file = tempPath , object = basename(tempPath),folder = 'folder_name', bucket = 'bucket_name') 
   ```
   
-  	folder is optional
+  	*folder* is optional
 
 * ## delete_object
 	delete an object in Qingstor bucket 
