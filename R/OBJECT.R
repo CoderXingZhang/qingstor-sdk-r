@@ -83,11 +83,6 @@ delete_object <- function(object, bucket, quiet = TRUE, ...) {
                     bucket = bucket,
                     path = paste0("/", object),
                     ...)
-        
-
-        print(r)
-
-
         if (inherits(r, "qingstor_error")) {
             return(r)
         } else {
