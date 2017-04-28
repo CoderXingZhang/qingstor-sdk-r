@@ -46,6 +46,7 @@ the object_name could be a name under a folder like 'some_folder/object_name'
 ## get_bucket
  list the object in Qingstor bucket
 
+ Note : folder is must, even in the root of the bucket .
  ``` R
  get_bucket(bucket = 'bucket_name',folder = "/") \
  ``` 
