@@ -28,7 +28,7 @@ Sys.setenv("Qstor_ACCESS_KEY_ID" = "...", "Qstor_SECRET_ACCESS_KEY" = "...", "Qs
 	put an object in Qingstor bucket
   
   ``` R 
-  	tempPath <- file.path("path","to","folder","xxxx.csv") 
+	tempPath <- file.path("path","to","folder","xxxx.csv") 
  	put_object(file = tempPath , object = basename(tempPath),folder = 'folder_name', bucket = 'bucket_name') 
   ```
   
@@ -50,8 +50,7 @@ Sys.setenv("Qstor_ACCESS_KEY_ID" = "...", "Qstor_SECRET_ACCESS_KEY" = "...", "Qs
  ``` R
  	get_bucket(bucket = 'bucket_name',folder = "/") 
  ``` 
-
- 	prefix is support ,example: 
+	prefix is support ,example: 
  
  ``` R
  	get_bucket(bucket = 'bucket_name',folder = "/",prefix = 'prefix_name')
