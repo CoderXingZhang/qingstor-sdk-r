@@ -56,3 +56,5 @@ the object_name could be a name under a folder like 'some_folder/object_name'
  ``` R
  get_bucket(bucket = 'bucket_name',folder = "/",prefix = 'prefix_name')
  ``` 
+
+* Now there is no operation on bucket ,for example create bucket, delete bucket.  *
