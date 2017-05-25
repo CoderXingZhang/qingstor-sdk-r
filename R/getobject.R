@@ -30,7 +30,18 @@ get_object <- function(object, bucket, headers = list(), parse_response = FALSE,
 
     #print(url)
 
-    res <- data.table::fread(url,showProgress = FALSE)
+    if(grepl('\\.csv',object)){
+         res <- data.table::fread(url,showProgress = FALSE)
+    }else if(grepl('\\.xls',object) || grepl('\\.xlsx',object)){
+        filenames <- strsplit(object,'/')
+        filename <- filenames[[1]][2]   
+        download.file(url,filename,mode = "wb")
+        res <- read.xlsx(filename,sheetIndex = 1)
+    }
+
+
+
+
 
     if (inherits(r, "qingstor_error")) {
         return(r)
