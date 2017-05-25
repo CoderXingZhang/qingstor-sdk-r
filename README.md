@@ -18,7 +18,7 @@ Sys.setenv("Qstor_ACCESS_KEY_ID" = "...", "Qstor_SECRET_ACCESS_KEY" = "...", "Qs
 ```
 
 * ## get_object
-	get an object in memory(now only support csv data, read data as dataframe)
+	get an object in memory(now  support csv, xls and xlsx data, read data as dataframe)
 ``` R
 	get_object(object = 'object_name', bucket = 'bucket_name') 
 ```
